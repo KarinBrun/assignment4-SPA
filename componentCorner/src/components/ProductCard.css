@@ -1,0 +1,40 @@
+.product-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  margin-bottom: 16px;
+  padding: 16px;
+  width: 250px;
+  text-align: center;
+}
+
+.product-name {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.description {
+  margin-top: 0;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.price {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.product-card button {
+  background-color: coral;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.product-card button:hover {
+  background-color: lightblue;
+}
