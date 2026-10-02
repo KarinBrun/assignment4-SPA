@@ -1,9 +1,19 @@
+import './CartItem.css';
+
 function CartItem(props) {
   return (
     <div className="cart-item">
-      <h3>{props.name}</h3>
-      <p>${props.price}</p>
-      <button onClick={props.onRemove}>
+      <div className="cart-item-info">
+        <h3>{props.name}</h3>
+        <p className="cart-item-price">
+          ${props.price.toFixed(2)}
+        </p>
+      </div>
+
+      <button 
+        className="remove-button"
+        onClick={props.onRemove}
+      >
         Remove
       </button>
     </div>

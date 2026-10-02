@@ -2,8 +2,8 @@
   background: slategray;
   color: white;
   border-bottom: 1px solid #dbdbdb;
-  padding: 0 20px;
-  height: 60px;
+  padding: 0 30px;
+  height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,6 +23,8 @@
 .nav-link {
   text-decoration: none;
   color: white;
+  font-weight: 500;
+  transition: 0.2s;
 }
 
 .nav-link:hover {
@@ -32,7 +34,14 @@
 .cart-container {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 6px;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s;
+}
+
+.cart-container:hover {
+  transform: scale(1.05);
 }
 
 .cart-icon {
